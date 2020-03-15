@@ -1,4 +1,6 @@
 # Fabricating a Voice Controlled Robot Car
+##### Collaborators: Isaac Shao, Yichi Ma
+##### Fall 2019
 
 ## About This Project
 In this project, we  built a three-wheeled robot that is responsive to various voice command, as the final project of Electrical Engineering 16B at UC Berkeley. We built the circuit that received the audio signals and programmed the microcontroller to process the signals with PCA. With the closed-loop control feedback scheme, the robot can move according to a specific word we said. This is a lab report produced by our group.
@@ -22,7 +24,7 @@ We collect the data points by inputting different PWM.
 We also defin v[t] = d[t+1] - d[t]. The system of linear equations can be formed as below:
 ![](images/equation0.png)
 Then, we used least squares to solve for vector x.
-![](images/equation1.png)
+![](images/leastSquare.png)
 
 ## Control
 Closed loop and controller values
